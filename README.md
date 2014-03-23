@@ -8,10 +8,10 @@ A small function in JAVA
 ```java
 public static void main(String[] args) {
     int bar =5;
-    { <!--block starts-->
+    { //block starts
         int foo = 4;
     } // block ends
-    System.out.println(foo); **// Error: cannot find symbol**
+    System.out.println(foo); // Error: cannot find symbol
 }
 ```
 In the above code foo is accessible only inside the block which declares and/or defines it . It is not accible outside the block.
@@ -24,10 +24,10 @@ In the above code foo is accessible only inside the block which declares and/or 
         //Block Starts
         var foo = 5;
     }
-    console.log(foo);
+    console.log(foo); //5
 }
 ```
-Here foo outputs 5 , and is accessible across main() function.
+Here the variable foo is accessible across main() function.
 
 THere are situations where you might want to limit a scope to a certain block example limit the scope to a else condition in a if-else statement.
 
@@ -54,7 +54,7 @@ Therefor we need to make a function declaration an expression. So what are the p
 
 ```javascript
 (function(){
-    Do Something
+    //Do Something
 }());
 ```
 
@@ -63,13 +63,13 @@ Therefor we need to make a function declaration an expression. So what are the p
 
 ```javascript
 !function(){
-    Do Something
+    //Do Something
 }();
 ```
 
 ```javascript
 void function(){
-    *Do Something*
+    //Do Something
 }();
 ```
 **You dont need to add any of the above if the statement is already a function expression.
