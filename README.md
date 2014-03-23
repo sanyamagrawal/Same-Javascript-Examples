@@ -1,4 +1,4 @@
-How to create Block Scope in Javascript?
+#How to create Block Scope in Javascript?
 
 Javascript variables have function scope against traditional languages which have block scope.
 
