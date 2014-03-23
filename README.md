@@ -43,29 +43,29 @@ console.log(b) // Undefined
 
 #IIFE ( Immediately Invoked Function Expression)
 
-As the name suggest, anything function that is invoked as soon as it is defined is called an IIF , E stands for the fact that it needs to be an expression to be involed as soon as it is defined because as soon as the parser sees a function it expects it to be a function declaration , and function declaration cannot be immediately invoked.
+As the name suggest, any function that is invoked as soon as it is defined is called an IIF , E stands for the fact that it needs to be an expression to be involed because as soon as the parser sees a function it expects it to be a function declaration , and function declaration cannot be immediately invoked.
 
-Therefor we need to make a function declaration an expression. THis is same as making an expression in java script. What are the possible ways of making an expression in javascript?
+Therefor we need to make a function declaration an expression. So what are the possible ways of making an expression in javascript?
 
 1. adding a () arround a statement will make it expression
 
 (function(){
-    //Do Something
+    *//Do Something*
 }());
 
 2. if you dont want to add a (), you can also use the ! or void operator
 
 !function(){
-    **Do Something**
+    *Do Something*
 }();
 
 void function(){
-    **Do Something**
+    *Do Something*
 }();
 
 3. You dont need to add any of the above if the statement is already a function expression.
 
-var something = function(){}(); **This also is a function expression** HOW? Give your brain a spin.
+var something = function(){}(); *This also is a function expression** HOW? Give your brain a spin.*
 
 **TODO : Writeup of practicle applications of IIFE**
 
