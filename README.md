@@ -5,7 +5,7 @@ Javascript variables have function scope against traditional languages which hav
 ###Block Scope:###
 A small function in JAVA
 
-```javascript
+```java
 public static void main(String[] args) {
     int bar =5;
     { <!--block starts-->
@@ -18,7 +18,7 @@ In the above code foo is accessible only inside the block which declares and/or 
 
 ###But IN JAVASCRIPT.###
 
-  ```
+  ```javascript
  function main() {
     {
         //Block Starts
@@ -34,7 +34,7 @@ THere are situations where you might want to limit a scope to a certain block ex
 ##Comes the Power of IIFE ( Immediately Invoked Function Expression)
 <br />
 
-```
+```javascript
 if(something){
     //Do Something
 }else {
@@ -52,7 +52,7 @@ Therefor we need to make a function declaration an expression. So what are the p
 
 **Adding a () arround a statement will make it expression.**
 
-```
+```javascript
 (function(){
     Do Something
 }());
@@ -61,13 +61,13 @@ Therefor we need to make a function declaration an expression. So what are the p
 **If you dont want to add a (), you can also use the ! or void operator
 **
 
-```
+```javascript
 !function(){
     Do Something
 }();
 ```
 
-```
+```javascript
 void function(){
     *Do Something*
 }();
@@ -75,7 +75,7 @@ void function(){
 **You dont need to add any of the above if the statement is already a function expression.
 **
 
-```
+```javascript
 var something = function(){}();
 ```
 
