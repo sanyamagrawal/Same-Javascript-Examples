@@ -1,6 +1,3 @@
-
-
-
 #How to create Block Scope in Javascript?
 
 Javascript variables have function scope against traditional languages which have block scope.
@@ -8,7 +5,7 @@ Javascript variables have function scope against traditional languages which hav
 ###Block Scope:###
 A small function in JAVA
 
-```
+```javascript
 public static void main(String[] args) {
     int bar =5;
     { <!--block starts-->
